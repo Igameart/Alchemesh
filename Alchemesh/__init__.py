@@ -178,7 +178,7 @@ def clone_and_import_module(module_name, package_name=None, global_name=None, gi
 
 def update_progress(job_title, progress):
 	""" Update the progress bar in the console """
-	length = 40  # Length of the progress bar
+	length = 60  # Length of the progress bar
 	block = int(round(length * progress))
 	msg = "\r{0}: [{1}] {2}%".format(job_title, "#" * block + "-" * (length - block), round(progress * 100, 2))
 	if progress >= 1:
@@ -605,95 +605,6 @@ class OBJECT_PT_auto_rig_retarget_panel(bpy.types.Panel):
 			
 		row.label(text="╚════════════════════════════════════════════════════════════════════════════════════════╝")
 		row = layout.row()
-			
-		# row = layout.row()
-		# row.label(text="══════════════════════════════════════════════════════════════════════════════════════════")
-		
-		# row = layout.row()
-		# box = row.box()
-		# row = box.row()
-		# row.label(text="Mesh Data:")
-		# col = box.column()
-		
-		# col.prop_search(scene, "auto_rig_retarget_src", bpy.data, "objects", text="Source")
-		# col.prop_search(scene, "auto_rig_retarget_dest", bpy.data, "objects", text="Target")
-		
-		# row = layout.row()
-		# row.label(text="══════════════════════════════════════════════════════════════════════════════════════════")
-		
-		# row = layout.row()
-		# box = row.box()
-		# row = box.row()
-		# row.label(text="Deform List:")
-		# # Insert new box here
-		# box.template_list("UL_DeformObjects", "", scene, "deform_objects", scene, "deform_objects_index")
-
-		# # Add buttons on the top right side of the box
-		# row = box.row(align=True)
-		# row.operator("scene.add_deform_object", icon='ADD', text="")
-		# row.operator("scene.remove_deform_object", icon='REMOVE', text="")
-		
-		# row = layout.row()
-		# row.label(text="══════════════════════════════════════════════════════════════════════════════════════════")
-		# row = layout.row()
-		# box = row.box()
-		# row = box.row()
-		# row.label(text="Settings:")
-		# row = box.row()
-		# row.prop(scene, "auto_rig_retarget_rbf", text="RBF Type")
-		
-		# row = box.row()
-		# row.prop(scene, "auto_rig_retarget_overwrite_original", text="Overwrite Original")
-		# row = box.row()
-		# row.prop(scene, "auto_rig_retarget_transfer_weights", text="Transfer Weights")
-		# row = box.row()
-		# row.prop(scene, "auto_rig_retarget_transfer_shape_keys", text="Transfer Shape Keys")
-		
-		# settings = context.scene.ALCHEMESH_settings
-
-		# layout.label(text="Proxy Level:")
-		# layout.prop(settings, "proxy_level", text="")
-		
-		# row = layout.row()
-		# if (dependencies_installed == False):
-			# row.label(text="Python Depencencies Missing!", icon="ERROR")
-			# row = layout.row()
-			# box = row.box()
-			# text = 'Please open the AlcheMesh Addon Preferences to install the required dependencies.'
-			# _label_multiline(
-				# context=context,
-				# text=text,
-				# parent=box
-			# )
-		# else:
-			# row.operator("object.auto_rig_retarget")
-		
-		# row = layout.row()
-		# row.label(text="══════════════════════════════════════════════════════════════════════════════════════════")
-
-		# if scene.metahuman_dna_license_agreed:
-			# row = layout.row()
-			# row.prop(scene, "auto_rig_retarget_metahuman_mode", text="MetaHuman Customizer")
-			
-			# if scene.auto_rig_retarget_metahuman_mode:
-				# row = layout.row()
-				# box = row.box()
-				# row = box.row()
-				# row.label(text="MetaHuman DNA:")
-				# row = box.row()
-				# row.prop(scene, "auto_rig_retarget_source_dna", text="Input")
-				# row = box.row()
-				# row.prop(scene, "auto_rig_retarget_output_dna", text="Output")
-				
-				# row = box.row()
-				# row.enabled = bool(scene.auto_rig_retarget_source_dna) and bool(scene.auto_rig_retarget_output_dna)
-				# row.operator("object.test_dna", text="Test DNA")
-
-				# row = box.row()
-				# row.prop(scene, "auto_rig_retarget_morphed_armature", text="Morphed Armature")
-				# row = box.row()
-				# row.operator("object.rebind_armature", text="Rebind Armature")
-
 
 class ALCHEMESH_Settings(bpy.types.PropertyGroup):
 	proxy_level: bpy.props.IntProperty(
@@ -820,11 +731,6 @@ class ALCHEMESH_preferences(bpy.types.AddonPreferences):
 			col2.operator("wm.url_open", text="License Agreement").url = "https://raw.githubusercontent.com/EpicGames/MetaHuman-DNA-Calibration/main/LICENSE"
 		else:
 			license_box.label(text="You have agreed to the MetaHuman DNA Calibration License.", icon='CHECKMARK')
-
-
-# --------------------------------------------------
-# Registration
-# --------------------------------------------------
 
 def p_filter(self, object):
 	return object.type == 'MESH'
