@@ -1,0 +1,3 @@
+# MetaReforge
+
+Epic Games Metahuman Creator offers a user-friendly platform for Unreal Engine developers, facilitating easy and cost-effective character creation. However, its primary output of human-like characters limits the ability to develop varied, stylized entities. While exporting the character and making adjustments in an external 3D editor like Blender seems a plausible solution, it comes with its quirks. The built-in post-process animation blueprint (more specifically, AnimNode_RigLogic) does not recognize the updated rest bone positions, assuming the bones remain in their initial locations prior to the adjustment.

@@ -1,0 +1,147 @@
+[
+    {
+        "NAME": "DEFAULT",
+        "EDIT_ID": "skin",
+        "METHOD": "SURFACE_DEFORM",
+        "FORCE_REBIND": false,
+        "PRESERVE_ORIENTATION": true,
+        "BIND_POSE": null,
+        "BONES": "ALL"
+    },
+    {
+        "NAME": "LIPS",
+        "EDIT_ID": "skin",
+        "METHOD": "SURFACE_DEFORM",
+        "FORCE_REBIND": true,
+        "PRESERVE_ORIENTATION": true,
+        "BIND_POSE": {
+            "FACIAL_C_Jaw": 
+            {
+                "LOC": [0.0, -0.5, 0.5]
+            },
+            "FACIAL_C_LowerLipRotation": 
+            {
+                "LOC": [0.0, -0.5, 0.5]
+            }
+
+        },
+        "BONES": [
+            "FACIAL_R_LipLower",
+            "FACIAL_C_LipLower",
+            "FACIAL_L_LipLower",
+
+            "FACIAL_R_LipUpperOuter",
+            "FACIAL_R_LipUpper",
+            "FACIAL_C_LipUpper",
+            "FACIAL_L_LipUpper",
+            "FACIAL_L_LipUpperOuter",
+
+            
+            "FACIAL_L_12IPV_LipLower3",
+            "FACIAL_L_12IPV_LipLower4",
+            "FACIAL_L_12IPV_LipLower10",
+            "FACIAL_L_12IPV_LipLower11",
+            "FACIAL_L_12IPV_LipLower12",
+            "FACIAL_L_12IPV_LipLower14",
+            "FACIAL_L_12IPV_LipLower18",
+            "FACIAL_L_12IPV_LipLower19",
+            "FACIAL_L_12IPV_LipLower20",
+            "FACIAL_L_12IPV_LipLower21",
+            "FACIAL_L_12IPV_LipLower23",
+
+            "FACIAL_L_12IPV_LipUpper3",
+            "FACIAL_L_12IPV_LipUpper10",
+            "FACIAL_L_12IPV_LipUpper11",
+            "FACIAL_L_12IPV_LipUpper18",
+            "FACIAL_L_12IPV_LipUpper19",
+            "FACIAL_L_12IPV_LipUpper20",
+            "FACIAL_L_12IPV_LipUpper21",
+            "FACIAL_L_12IPV_LipUpper23",
+
+            "FACIAL_R_12IPV_LipLower3",
+            "FACIAL_R_12IPV_LipLower4",
+            "FACIAL_R_12IPV_LipLower10",
+            "FACIAL_R_12IPV_LipLower11",
+            "FACIAL_R_12IPV_LipLower12",
+            "FACIAL_R_12IPV_LipLower14",
+            "FACIAL_R_12IPV_LipLower18",
+            "FACIAL_R_12IPV_LipLower19",
+            "FACIAL_R_12IPV_LipLower20",
+            "FACIAL_R_12IPV_LipLower21",
+            "FACIAL_R_12IPV_LipLower23",
+
+            "FACIAL_R_12IPV_LipUpper3",
+            "FACIAL_R_12IPV_LipUpper10",
+            "FACIAL_R_12IPV_LipUpper11",
+            "FACIAL_R_12IPV_LipUpper18",
+            "FACIAL_R_12IPV_LipUpper19",
+            "FACIAL_R_12IPV_LipUpper20",
+            "FACIAL_R_12IPV_LipUpper21",
+            "FACIAL_R_12IPV_LipUpper23"
+        ]
+    },
+    {
+        "NAME": "TEETH",
+        "EDIT_ID": "teeth",
+        "METHOD": "SURFACE_DEFORM",
+        "FORCE_REBIND": true,
+        "PRESERVE_ORIENTATION": true,
+        "BIND_POSE": {
+            "FACIAL_C_TeethLower": {
+                "LOC": [0.0, -1.0, 20]
+            },
+            "FACIAL_C_TeethUpper": {
+                "LOC": [0.0, 1.0, 20]
+            },
+            "FACIAL_C_Tongue1": {
+                "LOC": [0.0, 0.6, 0.1]
+            }
+        },
+        "BONES": [
+            "FACIAL_C_TeethUpper",
+            "FACIAL_C_TeethLower",
+            "FACIAL_C_Tongue1",
+            "FACIAL_C_TongueUpper1",
+            "FACIAL_L_TongueSide1",
+            "FACIAL_R_TongueSide1",
+            "FACIAL_C_Tongue2",
+            "FACIAL_C_TongueUpper2",
+            "FACIAL_L_TongueSide2",
+            "FACIAL_R_TongueSide2",
+            "FACIAL_C_Tongue3",
+            "FACIAL_C_TongueUpper3",
+            "FACIAL_C_TongueLower3",
+            "FACIAL_L_TongueSide3",
+            "FACIAL_R_TongueSide3",
+            "FACIAL_C_Tongue4",
+            "FACIAL_L_TongueSide4",
+            "FACIAL_R_TongueSide4"
+        ]
+    },
+    {
+        "NAME": "LEFT_EYE",
+        "EDIT_ID": "eyeLeft",
+        "METHOD": "GEOMETRY_CENTER",
+        "BONES": [
+            "FACIAL_L_EyelidLowerB",
+            "FACIAL_L_EyelidLowerA",
+            "FACIAL_L_EyelidUpperA",
+            "FACIAL_L_EyelidUpperB",
+            "FACIAL_L_EyeParallel",
+            "FACIAL_L_Eye"
+        ]
+    },
+    {
+        "NAME": "RIGHT_EYE",
+        "EDIT_ID": "eyeRight",
+        "METHOD": "GEOMETRY_CENTER",
+        "BONES": [
+            "FACIAL_R_EyelidLowerB",
+            "FACIAL_R_EyelidLowerA",
+            "FACIAL_R_EyelidUpperA",
+            "FACIAL_R_EyelidUpperB",
+            "FACIAL_R_EyeParallel",
+            "FACIAL_R_Eye"
+        ]
+    }
+]

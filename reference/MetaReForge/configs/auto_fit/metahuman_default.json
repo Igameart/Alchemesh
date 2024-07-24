@@ -1,0 +1,398 @@
+[
+    {
+        "NAME": "DEFAULT",
+        "EDIT_ID": "skin",
+        "METHOD": "SURFACE_DEFORM",
+        "FORCE_REBIND": false,
+        "PRESERVE_ORIENTATION": true,
+        "BIND_POSE": null,
+        "BONES": "ALL"
+    },
+    {
+        "NAME": "LIPS",
+        "EDIT_ID": "skin",
+        "METHOD": "SURFACE_DEFORM",
+        "FORCE_REBIND": true,
+        "PRESERVE_ORIENTATION": true,
+        "BIND_POSE": {
+            "FACIAL_C_Jaw": 
+            {
+                "LOC": [0.0, -0.5, 0.5]
+            },
+            "FACIAL_C_LowerLipRotation": 
+            {
+                "LOC": [0.0, -0.5, 0.5]
+            }
+
+        },
+        "BONES": [
+            "FACIAL_R_LipLower",
+            "FACIAL_C_LipLower",
+            "FACIAL_L_LipLower",
+
+            "FACIAL_R_LipUpperOuter",
+            "FACIAL_R_LipUpper",
+            "FACIAL_C_LipUpper",
+            "FACIAL_L_LipUpper",
+            "FACIAL_L_LipUpperOuter",
+
+            
+            "FACIAL_L_12IPV_LipLower3",
+            "FACIAL_L_12IPV_LipLower4",
+            "FACIAL_L_12IPV_LipLower10",
+            "FACIAL_L_12IPV_LipLower11",
+            "FACIAL_L_12IPV_LipLower12",
+            "FACIAL_L_12IPV_LipLower14",
+            "FACIAL_L_12IPV_LipLower18",
+            "FACIAL_L_12IPV_LipLower19",
+            "FACIAL_L_12IPV_LipLower20",
+            "FACIAL_L_12IPV_LipLower21",
+            "FACIAL_L_12IPV_LipLower23",
+
+            "FACIAL_L_12IPV_LipUpper3",
+            "FACIAL_L_12IPV_LipUpper10",
+            "FACIAL_L_12IPV_LipUpper11",
+            "FACIAL_L_12IPV_LipUpper18",
+            "FACIAL_L_12IPV_LipUpper19",
+            "FACIAL_L_12IPV_LipUpper20",
+            "FACIAL_L_12IPV_LipUpper21",
+            "FACIAL_L_12IPV_LipUpper23",
+
+            "FACIAL_R_12IPV_LipLower3",
+            "FACIAL_R_12IPV_LipLower4",
+            "FACIAL_R_12IPV_LipLower10",
+            "FACIAL_R_12IPV_LipLower11",
+            "FACIAL_R_12IPV_LipLower12",
+            "FACIAL_R_12IPV_LipLower14",
+            "FACIAL_R_12IPV_LipLower18",
+            "FACIAL_R_12IPV_LipLower19",
+            "FACIAL_R_12IPV_LipLower20",
+            "FACIAL_R_12IPV_LipLower21",
+            "FACIAL_R_12IPV_LipLower23",
+
+            "FACIAL_R_12IPV_LipUpper3",
+            "FACIAL_R_12IPV_LipUpper10",
+            "FACIAL_R_12IPV_LipUpper11",
+            "FACIAL_R_12IPV_LipUpper18",
+            "FACIAL_R_12IPV_LipUpper19",
+            "FACIAL_R_12IPV_LipUpper20",
+            "FACIAL_R_12IPV_LipUpper21",
+            "FACIAL_R_12IPV_LipUpper23"
+        ]
+    },
+    {
+        "NAME": "TEETH",
+        "EDIT_ID": "teeth",
+        "METHOD": "SURFACE_DEFORM",
+        "FORCE_REBIND": true,
+        "PRESERVE_ORIENTATION": true,
+        "BIND_POSE": {
+            "FACIAL_C_TeethLower": {
+                "LOC": [0.0, -1.0, 20]
+            },
+            "FACIAL_C_TeethUpper": {
+                "LOC": [0.0, 1.0, 20]
+            },
+            "FACIAL_C_Tongue1": {
+                "LOC": [0.0, 0.6, 0.1]
+            }
+        },
+        "BONES": [
+            "FACIAL_C_TeethUpper",
+            "FACIAL_C_TeethLower",
+            "FACIAL_C_Tongue1",
+            "FACIAL_C_TongueUpper1",
+            "FACIAL_L_TongueSide1",
+            "FACIAL_R_TongueSide1",
+            "FACIAL_C_Tongue2",
+            "FACIAL_C_TongueUpper2",
+            "FACIAL_L_TongueSide2",
+            "FACIAL_R_TongueSide2",
+            "FACIAL_C_Tongue3",
+            "FACIAL_C_TongueUpper3",
+            "FACIAL_C_TongueLower3",
+            "FACIAL_L_TongueSide3",
+            "FACIAL_R_TongueSide3",
+            "FACIAL_C_Tongue4",
+            "FACIAL_L_TongueSide4",
+            "FACIAL_R_TongueSide4"
+        ]
+    },
+    {
+        "NAME": "MESH_DEFORM_FIT",
+        "EDIT_ID": "skin",
+        "METHOD": "MESH_DEFORM",
+        "FORCE_REBIND": false,
+        "PRESERVE_ORIENTATION": true,
+        "BIND_POSE": null,
+        "BONES": [
+            "calf_correctiveRoot_l",
+            "calf_correctiveRoot_r",
+            "calf_l",
+            "calf_r",
+            "calf_twist_01_l",
+            "calf_twist_01_r",
+            "calf_twist_02_l",
+            "calf_twist_02_r",
+            "calf_twistCor_02_l",
+            "calf_twistCor_02_r",
+            "clavicle_l",
+            "clavicle_r",
+            "FACIAL_C_FacialRoot",
+            "FACIAL_C_Neck1Root",
+            "FACIAL_C_Neck2Root",
+            "FACIAL_C_Skull",
+            "foot_l",
+            "foot_r",
+            "hand_l",
+            "hand_r",
+            "head",
+            "index_01_half_l",
+            "index_01_half_r",
+            "index_01_l",
+            "index_01_r",
+            "index_02_half_l",
+            "index_02_half_r",
+            "index_02_l",
+            "index_02_r",
+            "index_03_half_l",
+            "index_03_half_r",
+            "index_03_l",
+            "index_03_r",
+            "index_metacarpal_l",
+            "index_metacarpal_r",
+            "indextoe_01_l",
+            "indextoe_01_r",
+            "indextoe_02_l",
+            "indextoe_02_r",
+            "lowerarm_correctiveRoot_l",
+            "lowerarm_correctiveRoot_r",
+            "lowerarm_l",
+            "lowerarm_r",
+            "lowerarm_twist_01_l",
+            "lowerarm_twist_01_r",
+            "lowerarm_twist_02_l",
+            "lowerarm_twist_02_r",
+            "middle_01_half_l",
+            "middle_01_half_r",
+            "middle_01_l",
+            "middle_01_r",
+            "middle_02_half_l",
+            "middle_02_half_r",
+            "middle_02_l",
+            "middle_02_r",
+            "middle_03_half_l",
+            "middle_03_half_r",
+            "middle_03_l",
+            "middle_03_r",
+            "middle_metacarpal_l",
+            "middle_metacarpal_r",
+            "neck_01",
+            "neck_02",
+            "pelvis",
+            "pinky_01_half_l",
+            "pinky_01_half_r",
+            "pinky_01_l",
+            "pinky_01_r",
+            "pinky_02_half_l",
+            "pinky_02_half_r",
+            "pinky_02_l",
+            "pinky_02_r",
+            "pinky_03_half_l",
+            "pinky_03_half_r",
+            "pinky_03_l",
+            "pinky_03_r",
+            "pinky_metacarpal_l",
+            "pinky_metacarpal_r",
+            "ring_01_half_l",
+            "ring_01_half_r",
+            "ring_01_l",
+            "ring_01_r",
+            "ring_02_half_l",
+            "ring_02_half_r",
+            "ring_02_l",
+            "ring_02_r",
+            "ring_03_half_l",
+            "ring_03_half_r",
+            "ring_03_l",
+            "ring_03_r",
+            "ring_metacarpal_l",
+            "ring_metacarpal_r",
+            "spine_01",
+            "spine_02",
+            "spine_03",
+            "spine_04",
+            "spine_05",
+            "thigh_correctiveRoot_l",
+            "thigh_correctiveRoot_r",
+            "thigh_l",
+            "thigh_r",
+            "thigh_twist_01_l",
+            "thigh_twist_01_r",
+            "thigh_twist_02_l",
+            "thigh_twist_02_r",
+            "thigh_twistCor_01_l",
+            "thigh_twistCor_01_r",
+            "thigh_twistCor_02_l",
+            "thigh_twistCor_02_r",
+            "thumb_01_l",
+            "thumb_01_r",
+            "thumb_02_half_l",
+            "thumb_02_half_r",
+            "thumb_02_l",
+            "thumb_02_r",
+            "thumb_03_half_l",
+            "thumb_03_half_r",
+            "thumb_03_l",
+            "thumb_03_r",
+            "upperarm_correctiveRoot_l",
+            "upperarm_correctiveRoot_r",
+            "upperarm_l",
+            "upperarm_r",
+            "upperarm_twist_01_l",
+            "upperarm_twist_01_r",
+            "upperarm_twist_02_l",
+            "upperarm_twist_02_r",
+            "upperarm_twistCor_01_l",
+            "upperarm_twistCor_01_r",
+            "upperarm_twistCor_02_l",
+            "upperarm_twistCor_02_r"
+        ]
+    },
+    {
+        "NAME": "LEFT_EYE",
+        "EDIT_ID": "eyeLeft",
+        "METHOD": "GEOMETRY_CENTER",
+        "BONES": [
+            "FACIAL_L_EyelidLowerB",
+            "FACIAL_L_EyelidLowerA",
+            "FACIAL_L_EyelidUpperA",
+            "FACIAL_L_EyelidUpperB",
+            "FACIAL_L_EyeParallel",
+            "FACIAL_L_Eye"
+        ]
+    },
+    {
+        "NAME": "RIGHT_EYE",
+        "EDIT_ID": "eyeRight",
+        "METHOD": "GEOMETRY_CENTER",
+        "BONES": [
+            "FACIAL_R_EyelidLowerB",
+            "FACIAL_R_EyelidLowerA",
+            "FACIAL_R_EyelidUpperA",
+            "FACIAL_R_EyelidUpperB",
+            "FACIAL_R_EyeParallel",
+            "FACIAL_R_Eye"
+        ]
+    },
+    {
+        "NAME": "FIX_RIGHT_UPPERARM",
+        "METHOD": "INTERPOLATE_BONES",
+        "ORIGIN": "upperarm_r",
+        "END": "lowerarm_r",
+        "BONES": [
+            "upperarm_r",
+            "upperarm_twist_01_r",
+            "upperarm_twist_02_r",
+            "upperarm_correctiveRoot_r",
+            "upperarm_twistCor_01_r",
+            "upperarm_twistCor_02_r"
+        ]
+    },
+    {
+        "NAME": "FIX_RIGHT_LOWERARM",
+        "METHOD": "INTERPOLATE_BONES",
+        "ORIGIN": "lowerarm_r",
+        "END": "hand_r",
+        "BONES": [
+            "lowerarm_r",
+            "lowerarm_twist_01_r",
+            "lowerarm_twist_02_r",
+            "lowerarm_correctiveRoot_r",
+            "hand_r"
+        ]
+    },
+    {
+        "NAME": "FIX_RIGHT_THIGH",
+        "METHOD": "INTERPOLATE_BONES",
+        "ORIGIN": "thigh_r",
+        "END": "calf_r",
+        "BONES": [
+            "thigh_r",
+            "thigh_twist_01_r",
+            "thigh_twist_02_r",
+            "thigh_twistCor_01_r",
+            "thigh_twistCor_02_r",
+            "thigh_correctiveRoot_r"
+        ]
+    },
+    {
+        "NAME": "FIX_RIGHT_CALF",
+        "METHOD": "INTERPOLATE_BONES",
+        "ORIGIN": "calf_r",
+        "END": "foot_r",
+        "BONES": [
+            "calf_r",
+            "calf_twist_02_r",
+            "calf_twistCor_02_r",
+            "calf_twist_01_r",
+            "calf_correctiveRoot_r", 
+            "foot_r"
+        ]
+    },
+    {
+        "NAME": "FIX_LEFT_UPPERARM",
+        "METHOD": "INTERPOLATE_BONES",
+        "ORIGIN": "upperarm_l",
+        "END": "lowerarm_l",
+        "BONES": [
+            "upperarm_l",
+            "upperarm_twist_01_l",
+            "upperarm_twist_02_l",
+            "upperarm_correctiveRoot_l",
+            "upperarm_twistCor_01_l",
+            "upperarm_twistCor_02_l"
+        ]
+    },
+    {
+        "NAME": "FIX_LEFT_LOWERARM",
+        "METHOD": "INTERPOLATE_BONES",
+        "ORIGIN": "lowerarm_l",
+        "END": "hand_l",
+        "BONES": [
+            "lowerarm_l",
+            "lowerarm_twist_01_l",
+            "lowerarm_twist_02_l",
+            "lowerarm_correctiveRoot_l",
+            "hand_l"
+        ]
+    },
+    {
+        "NAME": "FIX_LEFT_THIGH",
+        "METHOD": "INTERPOLATE_BONES",
+        "ORIGIN": "thigh_l",
+        "END": "calf_l",
+        "BONES": [
+            "thigh_l",
+            "thigh_twist_01_l",
+            "thigh_twist_02_l",
+            "thigh_twistCor_01_l",
+            "thigh_twistCor_02_l",
+            "thigh_correctiveRoot_l"
+        ]
+    },
+    {
+        "NAME": "FIX_LEFT_CALF",
+        "METHOD": "INTERPOLATE_BONES",
+        "ORIGIN": "calf_l",
+        "END": "foot_l",
+        "BONES": [
+            "calf_l",
+            "calf_twist_02_l",
+            "calf_twistCor_02_l",
+            "calf_twist_01_l",
+            "calf_correctiveRoot_l", 
+            "foot_l"
+        ]
+    }
+]

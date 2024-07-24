@@ -1,0 +1,8 @@
+*.dll
+*.pyd
+*.pyc
+*.pdf
+/.idea
+/third_party/dnacalib/*
+!/third_party/dnacalib/__init__.py
+/temp/

@@ -1,0 +1,2 @@
+class BinaryStreamReader:
+    pass
